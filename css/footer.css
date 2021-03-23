@@ -1,0 +1,24 @@
+/* footer */
+  
+footer {
+    width: calc(80% - (2 * var(--px-xxl)));
+    background: var(--color-neutral);
+    display: flex;
+    justify-content: center;
+    padding: var(--px-xxl);
+    margin-top: var(--px-xl);
+  }
+  
+  .list-footer {
+    margin-right: auto;
+    padding: 0px;
+  }
+  
+  .list-footer__item {
+    margin: var(--px-ss) 0;
+  }
+  
+  .subtitle-footer {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-subtitle);
+  }
