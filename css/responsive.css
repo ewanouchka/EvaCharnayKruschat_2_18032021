@@ -31,7 +31,7 @@
     padding-bottom: var(--px-xs);
     width: 50%;
     border-top: none;
-    border-bottom: var(--color-grey) solid 2px;
+    border-bottom: var(--color-neutral) solid 2px;
     text-align: center;
   }
 
@@ -186,7 +186,7 @@
     padding-bottom: var(--px-xs);
     width: 50%;
     border-top: none ;
-    border-bottom: var(--color-grey) solid 2px;
+    border-bottom: var(--color-neutral) solid 2px;
     text-align: center;
   }
 
