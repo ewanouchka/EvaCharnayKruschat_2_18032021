@@ -295,15 +295,8 @@
   /* fixed width and floating margin on large screens */
 
   header,
-  main {
-    width: var(--width-screen);
-  }
-
-  .popular {
-    width: 30% ;
-  }
-
+  main, 
   footer {
-    width: calc(var(--width-screen) - 2 * var(--px-xxl));
+    width: var(--width-screen);
   }
 }
