@@ -4,7 +4,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    width: 100%;
+    margin: 0;
+    padding:0 var(--px-xxl);
   }
   
   .header-logo {
@@ -25,6 +26,7 @@ header {
     padding: var(--px-xl) var(--px-xxl);
     color: var(--color-text);
     text-decoration: none;
+    transition: 0.2s all;
   }
   
   .header-nav__link--active,
@@ -99,6 +101,7 @@ header {
     padding: 0px var(--px-md);
     margin: 0;
     font-size: var(--font-size-name);
+    transition: 0.2s all;
   }
   
   .header-search__button::after {
@@ -176,6 +179,7 @@ header {
     font-weight: var(--font-weight-bold);
     font-size: 1em;
     font-family: var(--font-base);
+    transition: 0.2s all;
   }
   
   .header-search__filters__item__button:hover {

@@ -1,12 +1,11 @@
 /* footer */
   
-footer {
-    width: calc(80% - (2 * var(--px-xxl)));
+  footer {
     background: var(--color-neutral);
     display: flex;
-    justify-content: center;
     padding: var(--px-xxl);
-    margin-top: var(--px-xl);
+    margin: var(--px-xl) 0 0 0;
+    width: calc(100% - 2 * var(--px-xxl));
   }
   
   .list-footer {
