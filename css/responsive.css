@@ -2,12 +2,11 @@
   /* header */
 
   header {
-    width: 100% ;
+    width: 100%;
   }
 
   .header-logo {
     order: 1;
-    padding: 0 0 0 5%;
   }
 
   /* header nav on second line */
@@ -18,7 +17,7 @@
     order: 2;
     flex: 1;
     text-align: right;
-    border: none ;
+    border: none;
   }
 
   .header-nav {
@@ -50,19 +49,19 @@
 
   .header-search {
     order: 4;
-    width: calc(100% - 2 * var(--px-sm));
+    width: 100%;
     padding: 0 var(--px-sm);
   }
 
   .header-search__button::after {
-    content: "" ;
+    content: "";
   }
 
   .header-search__button__icon {
     border-radius: var(--px-sm);
     height: var(--width-height-xxs);
     text-align: center;
-    display: flex ;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: var(--font-size-search);
@@ -95,40 +94,40 @@
     width: 100%;
     order: 2;
     margin: var(--px-md) 0 0 0;
-    padding: var(--px-md) ;
-    background: transparent ;
+    padding: var(--px-md);
+    background: transparent;
   }
 
   .lodging-list {
-    justify-content: center ;
+    justify-content: center;
   }
 
   .lodging__button {
-    margin: var(--px-ss) ;
+    margin: var(--px-ss);
   }
 
   /* block 'popular' in first position */
 
   .popular {
     order: 1;
-    border-radius: 0 ;
+    border-radius: 0;
     padding: var(--px-md);
-    width: 100% ;
-    margin: 0 ;
+    width: 100%;
+    margin: 0;
   }
 
   /* block activities in third position no grid */
 
   .activities {
     order: 3;
-    margin-top: 0 ;
-    width: 100% ;
+    margin-top: 0;
+    width: 100%;
     padding: var(--px-md);
   }
 
   .activities__sample__img {
-    width: var(--width-mobile) ;
-    height: var(--height-mobile) ;
+    width: var(--width-mobile);
+    height: var(--height-mobile);
   }
 
   .activities__block {
@@ -138,8 +137,8 @@
   }
 
   .activities__sample {
-    width: var(--width-mobile) ;
-    margin-bottom: var(--px-md) ;
+    width: var(--width-mobile);
+    margin-bottom: var(--px-md);
   }
 
   .activities__sample__title {
@@ -150,8 +149,8 @@
 
   footer {
     flex-direction: column;
-    width: 100% ;
-    padding: 0 ;
+    width: 100%;
+    padding: 0;
   }
 
   .list-footer {
@@ -171,28 +170,28 @@
     order: 2;
     flex: 1;
     text-align: right;
-    border: none ;
+    border: none;
   }
 
   /* header nav on second line */
 
   .header-nav {
     order: 3;
-    flex: inherit ;
-    width: 100% ;
+    flex: inherit;
+    width: 100%;
   }
 
   nav .header-nav__link {
     padding-bottom: var(--px-xs);
     width: 50%;
-    border-top: none ;
+    border-top: none;
     border-bottom: var(--color-neutral) solid 2px;
     text-align: center;
   }
 
   .header-nav__link--active {
     border-top: none;
-    border-bottom: var(--color-hue) solid 2px ;
+    border-bottom: var(--color-hue) solid 2px;
   }
 
   .header-nav__link:hover,
@@ -219,64 +218,64 @@
   .lodging {
     display: flex;
     flex-direction: column;
-    width: 100% ;
-    margin: var(--px-md) 0 0 0 ;
+    width: 100%;
+    margin: var(--px-md) 0 0 0;
   }
 
   .lodging-list {
-    justify-content: center ;
+    justify-content: center;
   }
 
   .lodging__button {
-    margin: var(--px-ss) ;
+    margin: var(--px-ss);
   }
 
   .popular {
     display: flex;
     flex-direction: column;
-    width: 100% ;
+    width: 100%;
   }
 
   .popular__sample {
-    width: 85% ;
+    width: 85%;
   }
 
   /* activities block smaller grid */
 
   .activities__block {
-    column-gap: 10% ;
+    column-gap: 10%;
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: var(--grid2) ;
+    grid-template-rows: var(--grid2);
   }
 
   .activities__sample:first-child {
-    grid-column: 1 / 2 ;
-    grid-row: 1 / 4 ;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
   }
 
   .activities__sample:nth-child(2) {
-    grid-column: 2 / 3 ;
-    grid-row: 1 / 2 ;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
   }
 
   .activities__sample:nth-child(3) {
-    grid-column: 2 / 3 ;
-    grid-row: 3 / 4 ;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
   }
 
   .activities__sample:nth-child(4) {
-    grid-column: 1 / 2 ;
-    grid-row: 5 / 8 ;
+    grid-column: 1 / 2;
+    grid-row: 5 / 8;
   }
 
   .activities__sample:nth-child(5) {
     grid-column: 2 / 3;
-    grid-row: 5 / 6 ;
+    grid-row: 5 / 6;
   }
 
   .activities__sample:nth-child(6) {
-    grid-column: 2 / 3 ;
-    grid-row: 7 / 8 ;
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
   }
 
   /* footer on one column */
@@ -295,7 +294,7 @@
   /* fixed width and floating margin on large screens */
 
   header,
-  main, 
+  main,
   footer {
     width: var(--width-screen);
   }
