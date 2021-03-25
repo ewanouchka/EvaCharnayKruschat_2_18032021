@@ -86,7 +86,7 @@ header {
     border: var(--border-neutral-xs);
     font-family: var(--font-base);
     font-size: var(--font-size-name);
-    height: calc(var(--width-height-xxs) - var(--px-xxs));
+    height: var(--width-height-xxs);
     padding: 0 var(--px-md);
     font-weight: var(--font-weight-bold);
     margin: 0;
