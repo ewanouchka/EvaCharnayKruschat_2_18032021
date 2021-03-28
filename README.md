@@ -1,4 +1,4 @@
-# Onjectif
+# Objectif
 intégrer la maquette responsive du site Reservia en HTML et CSS pur (pas de compilateur ni framework) sur la base des designs desktop et mobile reçus, responsivité tablette libre. VScode recommandé 
 # points fonctionnels : 
 champ de recherche modifiable par l'utilisateur, carte d'hébergement et d'activité cliquable en intégralité, ancres sur les liens hébergements et activités vers les différentes sections
