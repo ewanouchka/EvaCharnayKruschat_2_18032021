@@ -26,7 +26,6 @@ header {
     padding: var(--px-xl) var(--px-xxl);
     color: var(--color-text);
     text-decoration: none;
-    transition: 0.2s all;
   }
   
   .header-nav__link--active,
