@@ -1,1 +1,6 @@
-.
+.gitignore
+*.doc
+*.docx
+*.pdf
+*.code-workspace
+*.psd
